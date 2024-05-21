@@ -9,6 +9,7 @@ public class EquipoDePersonas {
         this.edad = pEdad;
         this.id = pId;
         this.nombre = pNombre;
+        System.out.println("La persona esta concentrandose...");
     }
 
     public void concentrarse(){
