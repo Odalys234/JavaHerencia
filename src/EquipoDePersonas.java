@@ -10,6 +10,7 @@ public class EquipoDePersonas {
         this.id = pId;
         this.nombre = pNombre;
         System.out.println("La persona esta concentrandose...");
+        System.out.println("cambio...");
     }
 
     public void concentrarse(){
