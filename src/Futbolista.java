@@ -28,7 +28,8 @@ public class Futbolista extends EquipoDePersonas{
     public void concentrarse() {
        System.out.println("El fulbolista se esta concentrando.");
     }
-
+    @Override
+    public void dormir (){ System.out.println("La persona debe descansar");}
     @Override
     public void viajar() {
         System.out.println("El futbolista esta viajando.");
