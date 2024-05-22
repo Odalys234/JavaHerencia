@@ -9,11 +9,15 @@ public class EquipoDePersonas {
         this.edad = pEdad;
         this.id = pId;
         this.nombre = pNombre;
-        System.out.println("La persona esta concentrandose...");
-        System.out.println("cambio...");
-    }
 
+<<<<<<< HEAD
     public  void comer (){System.out.println("Estan comiendo");}
+=======
+    }
+public void descansar(){
+        System.out.println("La persona esta descansando");
+}
+>>>>>>> 3096d3235a2df485c8551da40f1d3def649a355a
     public void concentrarse(){
         System.out.println("La persona esta concentrandose...");
     }
