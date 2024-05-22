@@ -12,7 +12,7 @@ public class EquipoDePersonas {
         System.out.println("La persona esta concentrandose...");
         System.out.println("cambio...");
     }
-    public void dormir (){ System.out.println("La persona debe descansar");}
+    public void dormir(){System.out.println(" la persona esta descansando");}
 
     public void concentrarse(){
         System.out.println("La persona esta concentrandose...");
