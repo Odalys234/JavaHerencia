@@ -30,6 +30,9 @@ public class Futbolista extends EquipoDePersonas{
     }
 
     @Override
+    public  void comer (){System.out.println("Estan comiendo");}
+
+    @Override
     public void viajar() {
         System.out.println("El futbolista esta viajando.");
     }

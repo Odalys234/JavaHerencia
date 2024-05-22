@@ -13,6 +13,7 @@ System.out.println("Datos del futbolista: " + "ID: " + futbolista.getId() +
         futbolista.entrenar();
         futbolista.jugarPartido();
 
+
 Entrenador entrenador = new Entrenador("Aguilar Mendez",40,02,
         "Juan Modrick","1kk234567891");
         System.out.println("Datos del Entrenador: "

@@ -13,6 +13,7 @@ public class EquipoDePersonas {
         System.out.println("cambio...");
     }
 
+    public  void comer (){System.out.println("Estan comiendo");}
     public void concentrarse(){
         System.out.println("La persona esta concentrandose...");
     }
