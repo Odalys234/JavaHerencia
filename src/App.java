@@ -13,6 +13,8 @@ System.out.println("Datos del futbolista: " + "ID: " + futbolista.getId() +
         futbolista.entrenar();
         futbolista.jugarPartido();
             futbolista.descansar();
+            futbolista.dormir();
+            futbolista.comer();
 
 
 Entrenador entrenador = new Entrenador("Aguilar Mendez",40,02,
@@ -28,6 +30,8 @@ Entrenador entrenador = new Entrenador("Aguilar Mendez",40,02,
         entrenador.dirigirEntrenamiendo();
         entrenador.dirigirPartido();
         entrenador.descansar();
+            entrenador.comer();
+            entrenador.dormir();
 
 Masajista masajista = new Masajista("Mendelez Gutierrez", 28, 03,
         "Juana Luciana","Fisico Terapeuta",5);
@@ -42,6 +46,8 @@ Masajista masajista = new Masajista("Mendelez Gutierrez", 28, 03,
         masajista.viajar();
         masajista.darMasaje();
         masajista.descansar();
+        masajista.dormir();
+        masajista.comer();
 
 
 
