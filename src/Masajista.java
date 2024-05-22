@@ -1,11 +1,16 @@
 public class Masajista extends EquipoDePersonas{
     private String titulacion;
     private int añosDeExperiencia;
-
+    @Override
+    public void descansar() {
+        System.out.println("El masajista esta descansando.");
+    }
     @Override
     public void concentrarse() {
         System.out.println("El masajista esta concentrandose.");
     }
+    @Override
+    public  void comer (){System.out.println("Estan comiendo");}
 
     @Override
     public void viajar() {

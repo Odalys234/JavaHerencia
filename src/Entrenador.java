@@ -5,11 +5,16 @@ public class Entrenador extends EquipoDePersonas {
     public void concentrarse() {
         System.out.println("El entrenador esta concentrado.");
     }
-
+    @Override
+    public void descansar() {
+        System.out.println("El entrenador  esta descansando.");
+    }
     @Override
     public void viajar() {
         System.out.println("El entrenador esta viajando.");
     }
+    @Override
+    public  void comer (){System.out.println("Estan comiendo");}
     public void dirigirPartido(){
     System.out.println("El entrenador esta dirigiendo el partido.");
     }
