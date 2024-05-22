@@ -11,6 +11,8 @@ public class Masajista extends EquipoDePersonas{
     }
     @Override
     public  void comer (){System.out.println("Estan comiendo");}
+    @Override
+    public void dormir (){ System.out.println("La persona debe descansar");}
 
     @Override
     public void viajar() {

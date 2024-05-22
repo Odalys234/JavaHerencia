@@ -14,6 +14,8 @@ public class Entrenador extends EquipoDePersonas {
         System.out.println("El entrenador esta viajando.");
     }
     @Override
+    public void dormir (){ System.out.println("La persona debe descansar");}
+    @Override
     public  void comer (){System.out.println("Estan comiendo");}
     public void dirigirPartido(){
     System.out.println("El entrenador esta dirigiendo el partido.");
